@@ -1,0 +1,14 @@
+key1 : "This is value1"
+1 : "This is value2"
+---
+# lists 
+- apple
+- banana
+- orange
+---
+cities :
+ - Pune
+ - Delhi
+
+
+...
