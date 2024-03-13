@@ -1,0 +1,41 @@
+# String data types
+name: Akash Yadav
+age: "20"
+job: 'swe'
+
+bio: |
+  I am a software developer
+  I have good communication skills
+
+message: >
+  I am a software developer
+  I have good communication skills 
+
+# The above is same as message: I am a software developer I have good communication skills
+
+#Integer Data Types
+number: 5473
+# Decimal Data Types
+float: 98.45
+
+#Boolean Data Types
+booleanValue: No # n or N or no or NO or false or False or FALSE
+trueValue: Yes # y or Y or yes or YES or true or True or TRUE
+
+#specify the type explicitly
+
+myNumber: !!int 25
+myString: !!str "25"
+myBoolean: !!bool "false"
+myFloat: !!float 25.58
+binaryValue: !!int 0b1010
+octalValue: !!int 0o12
+hexValue: !!int 0xA
+commaValue: !!int 540_000
+infinitValue: !!float .inf
+notANumber: !!float .NaN
+nullValue:  !!null null # or ~ or NULL or Null or null
+~: this is a key 
+date: !!timestamp 2021-12-31T23:59:59.999999999Z
+india time: !!timestamp 2021-12-31T23:59:59.999999999 +05:30 
+exponential: !!float 12e+2
